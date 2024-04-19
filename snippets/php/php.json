@@ -230,5 +230,15 @@
             "}"
         ],
         "description": "Try catch block"
-    }
+    },
+    "/*": {
+		"prefix": "/*",
+		"body": [
+            "/**",
+            " * ${1:}",
+            " * @return mixed",
+            "*/"
+		],
+		"description": ""
+	}
 }
