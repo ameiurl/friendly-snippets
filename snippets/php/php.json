@@ -64,7 +64,7 @@
     "function …": {
         "prefix": "fun",
         "body": [
-            "${1:public }function ${2:FunctionName}(${3:${4:${5:} }\\$${6:}${7:${8:}}}) {",
+            "${1:public }function ${2:FunctionName}(${3:${4:${5:}}${6:}${7:${8:}}}) {",
             "\t${0:}",
             "}"
         ],
