@@ -242,7 +242,7 @@
 	},
     "pr …": {
         "prefix": "pr",
-        "body": ["print_r{", "\t${0:}", "}"],
+        "body": ["print_r(", "${0:}", ")"],
         "description": "If block"
     }
 }
