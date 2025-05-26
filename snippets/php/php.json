@@ -240,4 +240,9 @@
 		],
 		"description": ""
 	}
+    "pr …": {
+        "prefix": "pr",
+        "body": ["print_r{", "\t${0:}", "}"],
+        "description": "If block"
+    },
 }
