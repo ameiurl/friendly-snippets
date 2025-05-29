@@ -109,7 +109,7 @@
     },
     "if …": {
         "prefix": "if",
-        "body": ["if (${1:condition}) {", "\t${0:}", "}"],
+        "body": ["if (${1:}) {", "\t${0:}", "}"],
         "description": "If block"
     },
     "if … else …": {
@@ -242,7 +242,7 @@
 	},
     "pr …": {
         "prefix": "pr",
-        "body": ["print_r()"],
+        "body": ["print_r(${1:})"],
         "description": "If block"
     }
 }
